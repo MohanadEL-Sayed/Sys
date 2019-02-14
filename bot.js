@@ -743,7 +743,7 @@ client.user.setStatus("dnd")
  
  
 client.on('message' , message => {
-if(message.content === '$help') {
+if(message.content === 'ehelp') {
   var EsTeKnAN = new Discord.RichEmbed()
   .setColor('RANDOM')
 message.author.send(`
